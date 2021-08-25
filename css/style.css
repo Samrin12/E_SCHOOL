@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+header{
+    
+background-color: #F0FFF0;
+    
+min-height: 95vh;
+}
+.navbar-brand{
+    
+width: 18%;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: royalblue;
+}
+.btn-custom{
+
+background-color: #21B573;
+
+padding: 5px 15px;
+
+color: white;
+
+border-radius: 20px;
+} 
+.nav-item{
+    margin-left: 20px;
+}
+.header-banner{
+
+padding-top: 80px;
+}
+.header-banner p{
+    
+font-size: 16px;
+    
+line-height: 24px;
+    
+color: #FD511A;
+}
+.header-banner h1{
+    
+font-size: 48px;
+    
+line-height: 70px;
+    
+color: black;
+    
+font-weight: bold;
+}
+.header-banner h4{
+    
+font-size: 16px;
+    
+line-height: 36px;
+    
+color: #6C6B6B;
+}.header-banner .btn-started{
+    
+font-size: 16px;
+    
+line-height: 19px;
+    
+color: #fff;
+    
+background: #21B573;
+    
+border: 1px solid #000000;
+    
+box-sizing: border-box;
+    
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+border-radius: 33px;
+    
+margin-top: 12px;
+    
+padding: 10px 15px;
+}
+.header-banner img
+width: 90%;
+
+margin-left: 40px;
+}
+.header-banner span{
+    
+color: #21B573;
+}
+.feature{
+
+margin: 80px 0;
+}
+.feature-content{
+
+text-align: center;
+
+background-color: #F8FFFB;
+}
+.feature-content img{
+padding-top: 50px;
+width: 30%;
+}
+.img1{
+    
+width: 82%;
+    
+margin: auto;
+}
+.feature-content h1{
+
+font-size: 24px;
+
+font-weight: 500;
+
+line-height: 36px;
+
+padding-top: 20px;
+}
+.feature-content p{
+
+font-size: 16px;
+
+line-height: 24px;
+padding-bottom: 50px;
+}
+.feature-content:hover{
+    background: #FFFFFF;
+box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+.course h1{
+    
+font-size: 36px;
+    
+line-height: 54px;
+    
+font-weight: bold;
+    
+color: #413960;
+    
+margin-bottom: 80px;
+
+}
+.courses{
+
+background: #FFFFFF;
+
+
+}
+.courses img{
+    
+margin: 25px;
+    
+width: 85%;
+}
+.courses h1{
+    
+font-size: 24px;
+    
+line-height: 36px;
+    
+font-weight: 500;
+    
+color: #413960;
+    
+margin: 0px auto 12px 28px;
+}
+.courses p{
+    
+font-size: 16px;
+    
+line-height: 24px;
+    
+color: #585859;
+    
+padding-left: 28px;
+}
+.courses .btn-course{
+    
+color: #fff;
+    
+font-size: 16px;
+    
+line-height: 19px;
+    
+background: #21B573;
+    
+border-radius: 33px;
+    
+padding: 6px 18px;
+    
+margin-left: 21px;
+    
+margin-bottom: 25px;
+}
+.courses ul{
+    
+list-style: none;
+    
+margin: 0;
+    
+padding: 0;
+    
+display: flex;
+    
+justify-content: space-between;
+    
+font-size: 16px;
+    
+line-height: 24px;
+    
+color: #585859;
+    
+padding: 0 15px 25px 15px;
+}
+.courses ul li{
+    
+}
+.courses ul li i{
+    
+margin-right: 5px;
+}
+.course{
+    margin-bottom: 85px;
+}
+.courses:hover{
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+
+border-radius: 18px;
+}
+.testimonial h1{
+    
+color: black;
+    
+font-size: 36px;
+    
+font-weight: bold;
+    
+line-height: 54px;
+    
+margin-bottom: 45px;
+}
+.single-img img{
+
+}
+.speech p{
+
+color: black;
+
+font-size: 16px;
+
+line-height: 30px;
+
+padding-left: 22px;
+
+padding-top: 10px;
+}
+.testimonial{
+    margin-bottom: 100px;
+}
+.single-img{
+    
+height: 109px;
+    
+width: 109px;
+    
+border-radius: 50%;
+    
+border: 2px solid black;
+    
+overflow: hidden;
+}
+footer{
+margin-top: 45px;
+background-color: #282531;
+}
+.one{
+
+padding: 80px 0 0;
+}
+.one h1{
+    
+color: #FFF;
+    
+font-size: 18px;
+    
+line-height: 30px;
+    
+font-weight: bold;
+    
+padding-left: 20px;
+}
+.one p{
+    
+color: #fff;
+    
+font-size: 16px;
+    
+line-height: 30px;
+}
+.one ul{
+    
+list-style: none;
+    
+padding-left: 20px;
+}
+.one li{
+    
+color: #fff;
+    
+font-size: 16px;
+    
+line-height: 30px;
+}
+.two p{
+
+color: #CDCDCD;
+
+font-size: 16px;
+
+line-height: 30px;
+
+margin-top: 40px;
+}
